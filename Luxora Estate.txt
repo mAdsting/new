@@ -1,0 +1,91 @@
+Luxora Estates Project Documentation
+ Table of Contents
+1. Project Overview
+2. Features
+3. Folder Structure
+4. Technologies Used
+5. How to Run Locally
+6. Deployment (GitHub Pages)
+7. Customization
+8. Performance & Accessibility
+9. Credits
+
+
+Project Overview
+
+Luxora Estates is a luxury real estate website showcasing high-end homes, yachts, and jets. The site features a modern, visually appealing design with a video hero section, animated navigation, a featured listings carousel, and responsive layouts. It is built as a static website and is suitable for deployment on platforms like GitHub Pages.
+
+
+
+ Features
+
+Hero Section: Video background with overlay text and call to action.(I was not able to finish up on this but it in the code i dint remove to avoid problems with the code
+Animated Navigation: Smooth entrance animations using GSAP.
+Featured Listings: Swiper.js carousel for showcasing top properties.
+Responsive Design: Mobile-friendly layouts using CSS Flexbox and Grid.
+Newsletter Signup: Simple form for user engagement.
+About & Contact Pages: Additional information and contact form.
+Team Section: Profiles of team members.
+Modern Typography: Uses Google Fonts (Montserrat).
+Social Links: Footer with social media icons.
+
+
+ Folder Structure
+
+
+luxora-estates/
+│
+├── css/
+│   └── styles.css
+├── js/
+│   └── scripts.js
+├── images/
+│   └── ... (site images)
+├── videos/
+│   └── hero.mp4
+├── index.html
+├── about.html
+├── listings.html
+├── contact.html
+└── README.md
+
+
+
+Technologies Used
+
+HTML5—Structure and content
+CSS3—Styling and layout (Flexbox, Grid, custom styles)
+JavaScript (ES6)—Interactivity and animations
+Swiper.js—Carousel/slider for featured listings
+GSAP—Animations for hero and navigation
+Google Fonts—Montserrat font family
+GitHub Pages—Hosting and deployment
+
+How to Run Locally
+
+1. Clone the repository:
+ 
+   git clone https://github.com/your-username/luxora-estates.git
+  
+2. Navigate to the project folder:
+   
+   cd luxora-estates
+  
+3. Open `index.html` in your browser.
+   - No build step is required; all files are static.
+
+
+Deployment (GitHub Pages)
+
+1. Push your code to a GitHub repository.
+2. Go to Settings > Pages in your repository.
+3. Set the source branch (usually `main`) and root folder (`/`).
+4. Save and wait for GitHub Pages to deploy your site.
+5. Access your site at `https://your-username.github.io/luxora-estates/`.
+
+Technologies
+
+Swiper.js: [https://swiperjs.com/](https://swiperjs.com/)
+GSAP: [https://greensock.com/gsap/](https://greensock.com/gsap/)
+Google Fonts: [https://fonts.google.com/](https://fonts.google.com/)
+Icons/Images:Pexels
